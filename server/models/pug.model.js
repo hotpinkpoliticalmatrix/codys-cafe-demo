@@ -40,19 +40,6 @@ Pug.findByCoffee = function (coffeeName) {
     },
   });
   return pugs;
-  // const coffeeType = Coffee.findOne({
-  //   where: {
-  //     name: coffeeName,
-  //   },
-  // });
-  // console.log(coffeeType);
-  // const pugs = Pug.findAll({
-  //   where: {
-  //     favoriteCoffeeId: coffeeType.id,
-  //   },
-  // });
-  // console.log(pugs);
-  // return pugs;
 };
 
 Pug.beforeSave((pug) => {
